@@ -1,0 +1,18 @@
+python3 tools/augmentation.py \
+  --input_images source_dataset/images/train \
+  --input_labels source_dataset/labels/train \
+  --output_images datasets/images/train \
+  --output_labels datasets/labels/train \
+  --resize_max_side 640 \
+  --count 10 \
+  --isonoise 0.3 \
+  --motionblur 7 \
+  --brightness 0.2 \
+  --contrast 0.3 \
+  --hue 0.1  \
+  --rotate 15 \
+  --optical 0.3 \
+  --shift 0.05 \
+  --scale 0.1 \
+  --hflip \
+  --vflip

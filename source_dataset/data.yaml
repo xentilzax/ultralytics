@@ -1,0 +1,18 @@
+# data.yaml для обучения YOLO
+path: /workspace/datasets  # путь к корню датасета, замени на свой
+train: images/train     # путь к тренировочным изображениям относительно `path`
+val: images/val         # путь к валидационным изображениям относительно `path`
+
+nc: 11  # количество классов
+names:
+  - bbq
+  - greek-salat
+  - soup
+  - cap-empty
+  - cap-full
+  - plate-trash
+  - tableware
+  - teapod
+  - saucer
+  - shot
+  - trash
